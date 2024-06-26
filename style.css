@@ -116,7 +116,7 @@ body {
 
 .header .container .main-content p {
     font-weight: 600;
-    font-size: 18px;
+    font-size: 16px;
     padding-bottom: 15px;
     text-align: center;
 }
@@ -368,6 +368,15 @@ body {
     font-size: 25px;
 }
 
+.ios-section .ios-container .right-content{
+    width: 100%;
+}
+
+
+.ios-section .ios-container .right-content img{
+    width: 100%;
+}
+
 
 
 
@@ -382,6 +391,8 @@ body {
    width: 100%;
     
 }
+
+
 
 
 
@@ -512,7 +523,7 @@ body {
 
 .faq-section .faq-container .faq-para {
     font-weight: 600;
-    font-size: 18px;
+    font-size: 16px;
     
     
 }
@@ -698,18 +709,18 @@ body {
 .header .container .main-content h1 {
     font-weight: 900;
     text-align: center;
-    font-size: 32px;
+    font-size: 30px;
 }
 
 .header .container .main-content h3 {
     font-weight: 600;
-    padding: 25px 0px;
+    padding: 15px 0px;
     font-size: 16px;
 }
 
 .header .container .main-content p {
     font-weight: 600;
-    font-size: 18px;
+    font-size: 16px;
     padding-bottom: 15px;
 }
 
@@ -731,12 +742,12 @@ body {
 
 .tv-section .tv-container .left-content h1{
     text-align: center;
-    font-size: 32px;
+    font-size: 30px;
 }
 
 .tv-section .tv-container .left-content h3 {
     font-weight: 600;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 
@@ -761,35 +772,22 @@ body {
 
 .ios-section .ios-container .left-content h1{
     text-align: center;
-    font-size: 32px;
+    font-size: 30px;
 }
 
 .ios-section .tv-container .left-content h3 {
     font-weight: 600;
-    font-size: 18px;
+    font-size: 16px;
+}
+
+.ios-section .tv-container .right-content img{
+    width: 100%;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.faq-section .faq-container .faq-heading h1{
+    font-size: 30px;
+}
 
 
 .download-container{
@@ -813,22 +811,13 @@ body {
 
 .download-section .download-container .left-content h1{
     text-align: center;
-    font-size: 32px;
+    font-size: 30px;
 }
 
 .download-section .download-container .left-content h3 {
     font-weight: 600;
-    font-size: 18px;
+    font-size: 16px;
 }
-
-
-
-
-
-
-
-
-
 
 
 
@@ -850,17 +839,43 @@ body {
 
 .kids-section .kids-container .left-content h1{
     text-align: center;
-    font-size: 32px;
+    font-size: 30px;
 }
 
 .kids-section .kids-container .left-content h3 {
     font-weight: 600;
+    font-size: 16px;
+}
+
+
+
+.ios-section .ios-container .left-content h3 {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.faq-section .faq-container .question h1 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.faq-section .faq-container .answer p {
     font-size: 18px;
 }
 
 
 
+.faq-section .faq-container .question .fa-solid.fa-plus{
+    font-size: 25px;
+   
+}
 
+
+.faq-section .faq-container .question .fa-solid.fa-xmark{
+    font-size: 25px;
+
+    
+}
 
 
 
@@ -945,7 +960,7 @@ grid-template-columns: repeat(2, 1fr);
     }
 
     .header .container .main-content form .btn-2{
-        font-size: 18px!important;
+        font-size: 16px!important;
 }
 
 .header .container .nav {
@@ -958,3 +973,4 @@ grid-template-columns: repeat(2, 1fr);
 }
     
 }   
+
