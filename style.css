@@ -134,7 +134,8 @@ body {
     border-radius: 3px;
     width: 400px;   
     background: none;
-    padding: 20px 0px;
+    padding: 18px 0px;
+    font-size: 18px;
     padding-left: 25px;
     color: white;
 }
@@ -544,7 +545,8 @@ body {
     border-radius: 3px;
     width: 400px;   
     background: none;
-    padding: 20px 0px;
+    padding: 18px 0px;
+    font-size: 18px;
     padding-left: 25px;
     color: white;
 }
@@ -660,6 +662,9 @@ body {
     text-transform: capitalize;
     margin-top: 20px;
 }
+
+
+
 
 @media(max-width: 968px){
 
@@ -907,6 +912,12 @@ body {
 }
 
 
+.faq-container{
+    width: 90%;
+    margin: auto;
+}
+
+
 .faq-section .faq-container .faq-para form {
     display: flex;
     justify-content: center;
@@ -934,6 +945,21 @@ grid-template-columns: repeat(2, 1fr);
 
 }
 
+input{
+    
+    padding: 15px 0px;
+    padding-left: 15px;
+    
+}
+
+input::placeholder{
+    font-size: 18px!important;
+}
+
+.faq-section .faq-container .faq-para form .btn-3 {
+    font-size: 20px!important;
+}
+
 
 }
 
@@ -950,6 +976,7 @@ grid-template-columns: repeat(2, 1fr);
     .header .container .main-content input {
         
         width: auto;
+        
         
        
     }
